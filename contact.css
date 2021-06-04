@@ -1,0 +1,119 @@
+
+*{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-image: url(https://xionassociate.com/wp-content/uploads/2020/05/CONTACT-US.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    border: 3px solid aqua;
+    background-size: cover;
+    border-radius: 5px;
+    background-color: rgba(127, 255, 212, 0.651);
+    
+}
+/* form{
+    position: absolute;
+    top: 50%;
+} */
+ .headder{
+     background-color: aqua;
+     border: 2px solid aquamarine;
+     border-radius: 10px;
+
+ }
+ .head{
+     text-align: center;
+     /* font-family: 'Pattaya', sans-serif; */
+     font-family: 'Courgette', cursive;
+     padding: 4px;
+     margin-top: 0%;
+     color: rgb(0, 89, 255);
+     font-size: xx-large;
+     font-style: normal;
+     font-weight: 900;
+     background-color: rgba(107, 255, 114, 0.664);
+     box-sizing: content-box;
+     border-radius: 50px;
+     border: 1px dashed gray;
+ }
+ span{
+     color: red;
+ }
+ #carefully{
+     font-size: medium;
+     font-weight: 500;
+     font-style: italic;
+     padding-left: 30px;
+     text-align: center;
+ }
+ #form{
+     box-sizing: border-box;
+     width: 30%;
+     margin-left: 35%;
+     overflow: auto;
+     border-radius: 5px;
+     background-color: rgba(253, 255, 220, 0.438);
+ }
+.personal_details{
+    font-style: oblique;
+    font-weight: 600;
+    font-size:large;
+    padding: 5px;
+    margin: 4px;
+    margin-left: calc(50% - 35px - 8px);
+    color: darkslategray;
+}
+/* #form.input{
+    text-align: center;
+} */
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    box-sizing: border-box;
+    background-color: rgba(122, 230, 145, 0.548);
+    border: 1px solid #2e8b56a8;
+    border-radius: 5px;
+}
+label{
+    font-weight: 600;
+    font-size: medium;
+    font-family: 'Courgette', cursive;
+    padding: 5px;
+    border: 1px groove #2e8b56a8 ;
+    color: rgb(68, 85, 37);
+    margin: 5px;
+   border-radius: 40%;
+   background-color: rgba(233, 150, 122, 0.651);
+}
+fieldset{
+    border-radius: 10px;
+    border: 2px double dodgerblue;
+    margin: 4px;
+    padding: 4px;
+}
+.msg{
+    width: 100%;
+    margin: 10px 4px 7px 3px;
+}
+input ::placeholder{
+    font-weight: 600;
+    font-size: medium;
+    font-style: oblique;
+}
+input:hover,textarea:hover{
+    border: 2px dashed coral;
+    border-radius: 5px;
+    padding: 10px;
+}
+.fieldset{
+  padding: 7px;
+}
+label:hover{
+    padding: 10px;
+}
